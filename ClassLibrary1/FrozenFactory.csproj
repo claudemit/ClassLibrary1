@@ -8,8 +8,8 @@
     <ProjectGuid>{E92CBF24-6670-4365-AD69-E29878501309}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RhinoDebug</RootNamespace>
-    <AssemblyName>RhinoDebug</AssemblyName>
+    <RootNamespace>FrozenFactory</RootNamespace>
+    <AssemblyName>FrozenFactory</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -51,8 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Circle.cs" />
+    <Compile Include="trunk.cs" />
+    <Compile Include="Text.cs" />
+    <Compile Include="Tag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RhinoDebug.cs" />
+    <Compile Include="Branch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
