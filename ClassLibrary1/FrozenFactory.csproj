@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Circle.cs" />
+    <Compile Include="graph2.cs" />
     <Compile Include="graph.cs" />
     <Compile Include="trunk.cs" />
     <Compile Include="Text.cs" />
